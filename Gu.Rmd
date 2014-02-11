@@ -1,0 +1,287 @@
+GU- Blood Brain Analysis
+========================================================
+
+
+```{r setup, echo=FALSE}
+opts_chunk$set(tidy=TRUE, echo=TRUE, highlight=TRUE, figalign='center', fig.height=9, fig.width=9, out.width='800px', message=FALSE, error=TRUE, warning=FALSE, cache=FALSE)
+
+# Setup report details
+clientname="Ben Andreone"
+clientemail="bandreon4119@gmail.com"
+lablocation="Neurobiology at HMS"
+analystname="Meeta Mistry"
+analystemail="mmistry@hsph.harvard.edu"
+
+
+##General notes
+# - Store and run this script in the base directory of the consult 
+# - The script requires all .cel files to be in the same directory as the covars.desc         # (metadata) file
+# - An example covars.desc file might have columns with the original sample name ("Sample"), #the new sample name ("Sample_new"), the group to which the sample belongs ("Group") and the #Batch number in separate columns. The first column must have the .cel file names and contain #no column header.
+```
+
+Array analysis for `r clientname` (`r clientemail`) at `r lablocation`. Contact `r analystname` (`r analystemail`) for additional details. Request from client was:
+
+Revisit array data comparing gene expression in endothelial cells purified from brain and lung, looking for genes that may be important in the development of the blood brain barrier.
+
+Also, compare the gene expression levels to those from other endothelial cell microarray data sets published in GEO that use the same platform (Affymetrix 430 2.0)
+
+
+
+
+# Bioconductor and R libraries used
+```{r, libraries, echo=TRUE}
+
+library(affy)
+library(arrayQualityMetrics)
+library(RColorBrewer)
+library(simpleaffy)
+library(limma)
+library(mouse430a2.db)
+library(pheatmap)
+library(ape)
+library(statmod)
+library(xtable)
+library(plyr)
+library(ggplot2)
+library(gplots)
+```
+
+### Get variables
+- get base directory for analyses
+- specify data and results directories
+- specify column headers used in metadata file
+
+```{r directories, echo=TRUE}
+baseDir=getwd()
+dataDir=paste(baseDir, "/data", sep="")
+resultsDir=paste(baseDir, "/results", sep="")
+groupid_column_header1="Tissue"
+groupid_column_header2="SampleNumber"
+```
+
+Phenotype data was cleaned up with Google Refine (the Refine project can be downloaded at [this link](./results/meta/Gu-dChip_array_summary.google-refine.tar.gz) including a history of all data transformation steps). One row was deleted after the use of Refine
+
+## Load in phenotype data and CEL files
+  
+```{r loadcels}
+mic.data <- read.affy('covars.desc', path=dataDir, verbose=T)
+
+```
+
+## QC report on raw data 
+
+```{r QC_report, echo=FALSE}
+#  arrayQualityMetrics(expressionset=mic.data,
+#                      outdir='./results/report_raw',
+#                      force=TRUE,
+#                     do.logtransform=TRUE)
+```
+ 
+[Raw QC](./results/report_raw/index.html)
+
+
+## Background Correct and Normalize using RMA normalization
+
+```{r normalize, echo=TRUE}
+mic.edata <- call.exprs(mic.data, "rma")
+```
+
+
+```{r expressionvalues, echo=TRUE}
+
+# Extract expression data and factor pheno data
+allData <- exprs(mic.edata) 
+colnames(allData) <- rownames(pData(mic.edata))
+
+pData(mic.edata)[, groupid_column_header1]<-factor(pData(mic.edata)
+                                                   [, groupid_column_header1])
+pData(mic.edata)[, groupid_column_header2]<-factor(pData(mic.edata)
+                                                   [, groupid_column_header2])
+
+```
+
+## QC Analysis
+Using different methods to identfy outliers - each module can take the raw data or the normalized data.
+
+```{r QC_prepare data, echo=TRUE}
+
+# Prepare data for AQM
+preparedData=prepdata(expressionset=mic.edata, 
+                      intgroup=c(groupid_column_header1, groupid_column_header2), 
+                      do.logtransform=F)
+preparedAffy=prepaffy(expressionset=mic.data, preparedData)
+```
+
+We can compute the number of outliers found from the different methods outlined in the QC report link above.
+
+```{r affy specific plots, echo=TRUE}
+
+# Relative Log Expression plots
+rle<- aqm.rle(preparedAffy) 
+rle.out<-rle@outliers@which
+if(length(rle.out) > 0) rleoutliers<-names(rle.out) 
+
+# Normalized Unscaled Standard Error plots
+nuse<- aqm.nuse(preparedAffy) 
+nuse.out<-nuse@outliers@which
+if(length(nuse.out) > 0) nuseoutliers<-names(nuse.out) 
+
+```
+
+Above, we have RLE and NUSE plots. These plots.. Based on these QC methods we identify a total of  `r sum(length(rle.out), length(nuse.out))` outliers. Next, we use other QC methods for which the input can be either raw data or normalized data, including boxplots, MA plots and a distance heatmap.
+
+```{r, normalized data plots, echo=TRUE}
+
+# Distance between arrays using heatmap
+hm<-aqm.heatmap(preparedAffy)
+hm.out<-hm@outliers@which
+if(length(hm.out) > 0) hmoutliers<-names(hm.out) #sample names of outliers
+
+# Boxplots
+bo<- aqm.boxplot(preparedAffy, subsample=10000, outlierMethod= "KS") 
+bo.out<-bo@outliers@which
+if(length(bo.out) > 0) boutliers<-names(bo.out) 
+
+# MA plots
+ma<-aqm.maplot(preparedAffy)
+ma.out<-ma@outliers@which
+if(length(ma.out) > 0) moutliers<-names(ma.out)
+
+```
+
+From these methods we find the data is generally good with `r sum(length(ma.out), length(hm.out), length(bo.out))` ouliers found. The heatmap below illustrates this.The color scale is chosen to cover the range of distances encountered in the dataset. Patterns in this plot indicate that the arrays cluster better by tissue type rather than by sample number.
+
+```{r plot heatmap, echo=FALSE, fig.align='center'}
+hm@plot
+```
+
+
+## PCA
+Plot all pairwise combinations of the first 5 principal components for the samples
+The more similar the samples are, the closer they will cluster in these plots. In the frst one below tissue type is coded by color.
+
+```{r calculate_PCA, echo=FALSE, fig.align='center'}
+myPca <- prcomp(t(allData))
+pc<-myPca$x
+
+# Plot first factor of interest
+tmpPCAData <- as.data.frame(myPca$x[,1:5])
+colors <- rainbow(length(levels(pData(mic.edata)[,groupid_column_header1])))
+plot(tmpPCAData, col=colors[pData(mic.edata)[,groupid_column_header1]], pch=19)
+```
+
+In the second plot the color coding represents the sample number. For each mouse tissue from the cortex and lung was assayed.
+
+```{r calculate_PCA2, echo=FALSE, fig.align='center'}
+# Plot second factor of interest
+tmpPCAData <- as.data.frame(myPca$x[,1:5])
+colors <- rainbow(length(levels(pData(mic.edata)[,groupid_column_header2])))
+plot(tmpPCAData, col=colors[pData(mic.edata)[,groupid_column_header2]], pch=19)
+
+```
+In this last plot we investigate whether samples are clustering based on average intensity. Intensity is illustrated using a color scale from red (high intensity) to light pink (low intensity). 
+
+```{r calculate_PCA3, echo=FALSE, fig.align='center'}
+# Plot average intensity (lighter color = low intensity)
+A<-colMeans(allData, na.rm=T)
+ramp <- colorRamp(c("red", "pink"))
+colors=rgb( ramp(seq(0, 1, length = 10)), max = 255) 
+plot(tmpPCAData, col=rev(colors)[cut(A, quantile(A, seq(0,1,by=0.1)), 
+          label=FALSE)], pch=19)
+```
+
+From the PCA plots we see that the first two principal components (along which we see the largest variation in the data) represent tissue differences between samples.We also see PC3 somewhat explained by difference in Sample Number.Its best to use a paired design in limma. 
+
+## Differential Expression Analysis
+
+```{r organize data, echo=TRUE}
+
+pData(mic.edata)<-pData(mic.edata)[with(pData(mic.edata), order(Tissue, SampleNumber)),]
+newOrder <- match(rownames(pData(mic.edata)), colnames(exprs(mic.edata)))
+exprs(mic.edata) <- exprs(mic.edata)[,as.vector(newOrder)]
+
+```
+
+
+```{r limma paired design, echo=TRUE}
+
+samples <- cbind(c(1, rep(0,3), 1, rep(0,3)), c(0,1, rep(0,2), 0, 1, rep(0,2)),
+                 c(rep(0, 2), 1, 0, rep(0,2), 1, 0), c(rep(0,3), 1, rep(0,3), 1))
+tissue<- cbind(c(rep(1,4),rep(0,4)), c(rep(0,4),rep(1,4)))
+contrast.matrix<-data.frame(cbind(tissue, samples))
+colnames(contrast.matrix) <- c("Cortex", "Lung", "Sample18", "Sample19", "Sample22",
+                               "Sample72")
+
+mod<-model.matrix(~ -1 + Tissue + SampleNumber, pData(mic.edata))
+
+# Fit a linear model
+fit<-lmFit(mic.edata, mod)
+
+# Compute estimated coefficients and standard errors for contrasts
+contrasts <- makeContrasts(TissueCortex-TissueLung, levels=mod)
+fit2<- contrasts.fit(fit, contrasts)
+fit2<-eBayes(fit2)
+```
+
+From this fit, we find 277 genes to be differentially expressed between Cortex and Lung. Threshold applied is fold change greater than 2 AND adjusted p-value < 0.001.
+
+```{r histplot, echo=TRUE,  fig.align='center'}
+gene_list <- topTable(fit2, coef=1, number=nrow(exprs(mic.edata)), 
+                      sort.by="logFC")
+
+# P-value Distribution
+hist(gene_list$P.Value, col="darkgrey", border=F, xlab="P-value", 
+     main="P-value Distribution")
+```
+
+```{r volcanoplot, echo=TRUE, fig.align='center'}
+# Highlight genes 
+#Bonferroni
+gene_list$threshold.B = as.factor(abs(gene_list$logFC) > 2 & 
+                                  gene_list$P.Value < 0.05/nrow(gene_list))
+#FDR
+gene_list$threshold.FDR = as.factor(abs(gene_list$logFC) > 2 & 
+                                  gene_list$adj.P.Val < 0.001)
+ 
+##Construct the plot object
+ggplot(data=gene_list, aes(x=logFC, y=-log10(P.Value), colour=threshold.FDR)) +
+  geom_point(alpha=0.4, size=1.75) +
+  opts(legend.position = "none") +
+  xlim(c(-10, 10)) + ylim(c(0, 15)) +
+  xlab("log2 fold change") + ylab("-log10 p-value")
+
+top<-gene_list[which(as.logical(gene_list$threshold.FDR)),]
+
+```
+
+
+Plot a heat map of the top 277 significant genes to see changes in gene expression.
+
+```{r heatmap, echo=TRUE, fig.align='center'}
+top.edata<-exprs(mic.edata)[rownames(top),]
+
+heatmap.2(top.edata, dendrogram="none", trace="none",col=greenred(10),
+          labRow="", labCol=pData(mic.edata)$Tissue)
+                                                                     
+```
+
+The Gu lab previously identfied a top list of 38 probes. None of these probes appear in our top list, although if we reduce the stringency by increasing p-value cutoff to padj < 0.01 we get 15 of their probes. A heatmap of the 38 probes depicted below. 
+
+```{r compare, echo=TRUE, fig.align='center'}
+gu.genes<-read.delim("Gu_orginal_list.csv", header=T, sep="\t", row.names=1, as.is=T)
+length(which(rownames(gu.genes) %in% row.names(top)))   
+
+gu.edata<-exprs(mic.edata)[rownames(gu.genes),]
+
+
+heatmap.2(gu.edata, dendrogram="none", trace="none",col=greenred(10),
+          labRow="", labCol=pData(mic.edata)$Tissue)
+
+                                
+```
+
+
+
+
+
+

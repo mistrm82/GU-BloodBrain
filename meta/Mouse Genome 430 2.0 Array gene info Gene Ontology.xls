@@ -1,0 +1,1201 @@
+Term ID	Term Name	Frequency
+3	reproduction	617
+41	transition metal ion transport	90
+74	regulation of progression through cell cycle	850
+75	cell cycle checkpoint	71
+82	G1/S transition of mitotic cell cycle	91
+87	M phase of mitotic cell cycle	314
+119	mediator complex	64
+122	negative regulation of transcription from RNA polymerase II promoter	250
+139	Golgi membrane	231
+151	ubiquitin ligase complex	112
+155	two-component sensor activity	89
+160	two-component signal transduction system (phosphorelay)	113
+165	MAPKKK cascade	274
+166	nucleotide binding	4731
+187	activation of MAPK activity	82
+226	microtubule cytoskeleton organization and biogenesis	138
+228	nuclear chromosome	175
+245	spliceosome assembly	86
+267	cell fraction	991
+278	mitotic cell cycle	485
+279	M phase	409
+287	magnesium ion binding	703
+313	organellar ribosome	81
+323	lytic vacuole	258
+375	RNA splicing\, via transesterification reactions	373
+377	RNA splicing\, via transesterification reactions with bulged adenosine as nucleophile	373
+398	nuclear mRNA splicing\, via spliceosome	373
+502	proteasome complex (sensu Eukaryota)	71
+775	chromosome\, pericentric region	112
+776	kinetochore	67
+785	chromatin	362
+786	nucleosome	116
+790	nuclear chromatin	70
+792	heterochromatin	87
+793	condensed chromosome	101
+902	cellular morphogenesis	955
+904	cellular morphogenesis during differentiation	397
+1501	skeletal development	301
+1503	ossification	151
+1505	regulation of neurotransmitter levels	154
+1508	regulation of action potential	63
+1525	angiogenesis	253
+1558	regulation of cell growth	229
+1568	blood vessel development	367
+1584	rhodopsin-like receptor activity	526
+1608	nucleotide receptor activity\, G-protein coupled	85
+1614	purinergic nucleotide receptor activity	85
+1653	peptide receptor activity	169
+1654	eye development	158
+1655	urogenital system development	104
+1656	metanephros development	72
+1664	G-protein-coupled receptor binding	84
+1701	embryonic development (sensu Mammalia)	161
+1726	ruffle	77
+1747	eye development (sensu Mammalia)	86
+1763	morphogenesis of a branching structure	118
+1764	neuron migration	153
+1772	immunological synapse	100
+1775	cell activation	361
+1816	cytokine production	160
+1817	regulation of cytokine production	107
+1819	positive regulation of cytokine production	65
+1822	kidney development	93
+1838	embryonic epithelial tube formation	70
+1839	neural plate morphogenesis	69
+1841	neural tube formation	68
+1871	pattern binding	190
+1932	regulation of protein amino acid phosphorylation	101
+1944	vasculature development	377
+2009	morphogenesis of an epithelium	184
+3676	nucleic acid binding	7039
+3677	DNA binding	4406
+3682	chromatin binding	258
+3697	single-stranded DNA binding	67
+3700	transcription factor activity	1854
+3702	RNA polymerase II transcription factor activity	209
+3707	steroid hormone receptor activity	124
+3712	transcription cofactor activity	402
+3713	transcription coactivator activity	210
+3714	transcription corepressor activity	165
+3723	RNA binding	1526
+3725	double-stranded RNA binding	103
+3729	mRNA binding	65
+3735	structural constituent of ribosome	481
+3743	translation initiation factor activity	196
+3746	translation elongation factor activity	94
+3755	peptidyl-prolyl cis-trans isomerase activity	74
+3774	motor activity	306
+3777	microtubule motor activity	155
+3779	actin binding	623
+3823	antigen binding	103
+3824	catalytic activity	11466
+3887	DNA-directed DNA polymerase activity	84
+3899	DNA-directed RNA polymerase activity	81
+3924	GTPase activity	321
+3954	NADH dehydrogenase activity	75
+4112	cyclic-nucleotide phosphodiesterase activity	67
+4114	3'\,5'-cyclic-nucleotide phosphodiesterase activity	62
+4175	endopeptidase activity	910
+4177	aminopeptidase activity	97
+4180	carboxypeptidase activity	96
+4181	metallocarboxypeptidase activity	66
+4197	cysteine-type endopeptidase activity	306
+4221	ubiquitin thiolesterase activity	158
+4222	metalloendopeptidase activity	192
+4252	serine-type endopeptidase activity	309
+4295	trypsin activity	69
+4386	helicase activity	332
+4428	inositol or phosphatidylinositol kinase activity	78
+4437	inositol or phosphatidylinositol phosphatase activity	90
+4497	monooxygenase activity	196
+4518	nuclease activity	323
+4519	endonuclease activity	193
+4521	endoribonuclease activity	93
+4527	exonuclease activity	134
+4540	ribonuclease activity	125
+4553	hydrolase activity\, hydrolyzing O-glycosyl compounds	170
+4601	peroxidase activity	67
+4620	phospholipase activity	91
+4672	protein kinase activity	1598
+4673	protein histidine kinase activity	93
+4674	protein serine/threonine kinase activity	1286
+4702	receptor signaling protein serine/threonine kinase activity	103
+4713	protein-tyrosine kinase activity	860
+4714	transmembrane receptor protein tyrosine kinase activity	164
+4721	phosphoprotein phosphatase activity	380
+4722	protein serine/threonine phosphatase activity	87
+4725	protein tyrosine phosphatase activity	227
+4812	aminoacyl-tRNA ligase activity	115
+4840	ubiquitin conjugating enzyme activity	114
+4842	ubiquitin-protein ligase activity	323
+4843	ubiquitin-specific protease activity	163
+4857	enzyme inhibitor activity	366
+4866	endopeptidase inhibitor activity	212
+4867	serine-type endopeptidase inhibitor activity	146
+4871	signal transducer activity	4459
+4872	receptor activity	3090
+4879	ligand-dependent nuclear receptor activity	126
+4888	transmembrane receptor activity	1532
+4896	hematopoietin/interferon-class (D200-domain) cytokine receptor activity	122
+4907	interleukin receptor activity	63
+4930	G-protein coupled receptor activity	716
+4983	neuropeptide Y receptor activity	62
+5057	receptor signaling protein activity	247
+5083	small GTPase regulator activity	403
+5085	guanyl-nucleotide exchange factor activity	338
+5089	Rho guanyl-nucleotide exchange factor activity	180
+5096	GTPase activator activity	335
+5102	receptor binding	1053
+5125	cytokine activity	362
+5179	hormone activity	163
+5198	structural molecule activity	1339
+5200	structural constituent of cytoskeleton	165
+5201	extracellular matrix structural constituent	117
+5215	transporter activity	2755
+5216	ion channel activity	673
+5230	extracellular ligand-gated ion channel activity	134
+5231	excitatory extracellular ligand-gated ion channel activity	96
+5244	voltage-gated ion channel activity	361
+5249	voltage-gated potassium channel activity	203
+5253	anion channel activity	76
+5254	chloride channel activity	65
+5261	cation channel activity	496
+5262	calcium channel activity	115
+5267	potassium channel activity	267
+5275	amine transporter activity	146
+5279	amino acid-polyamine transporter activity	98
+5319	lipid transporter activity	128
+5342	organic acid transporter activity	172
+5351	sugar porter activity	107
+5386	carrier activity	761
+5488	binding	21633
+5496	steroid binding	109
+5506	iron ion binding	564
+5507	copper ion binding	133
+5509	calcium ion binding	1661
+5515	protein binding	10376
+5516	calmodulin binding	285
+5524	ATP binding	3163
+5525	GTP binding	796
+5529	sugar binding	337
+5539	glycosaminoglycan binding	165
+5543	phospholipid binding	242
+5576	extracellular region	3950
+5578	extracellular matrix (sensu Metazoa)	499
+5581	collagen	64
+5604	basement membrane	107
+5615	extracellular space	3531
+5622	intracellular	17105
+5623	cell	23485
+5624	membrane fraction	867
+5625	soluble fraction	136
+5634	nucleus	8645
+5635	nuclear envelope	256
+5643	nuclear pore	105
+5654	nucleoplasm	1101
+5667	transcription factor complex	812
+5681	spliceosome complex	223
+5694	chromosome	672
+5730	nucleolus	246
+5737	cytoplasm	8102
+5739	mitochondrion	1664
+5740	mitochondrial envelope	594
+5743	mitochondrial inner membrane	507
+5759	mitochondrial matrix	117
+5761	mitochondrial ribosome	81
+5764	lysosome	258
+5768	endosome	232
+5769	early endosome	67
+5770	late endosome	69
+5773	vacuole	301
+5777	peroxisome	150
+5783	endoplasmic reticulum	1203
+5789	endoplasmic reticulum membrane	233
+5792	microsome	262
+5794	Golgi apparatus	1155
+5795	Golgi stack	796
+5798	Golgi-associated vesicle	93
+5802	Golgi trans face	63
+5813	centrosome	106
+5815	microtubule organizing center	133
+5819	spindle	108
+5829	cytosol	837
+5830	cytosolic ribosome (sensu Eukaryota)	137
+5834	heterotrimeric G-protein complex	102
+5840	ribosome	493
+5856	cytoskeleton	1888
+5871	kinesin complex	95
+5874	microtubule	437
+5875	microtubule associated complex	242
+5882	intermediate filament	150
+5886	plasma membrane	3067
+5887	integral to plasma membrane	1199
+5905	coated pit	108
+5911	intercellular junction	302
+5912	adherens junction	172
+5913	cell-cell adherens junction	64
+5923	tight junction	138
+5924	cell-substrate adherens junction	86
+5925	focal adhesion	76
+5929	cilium	79
+5938	cell cortex	103
+5975	carbohydrate metabolism	818
+5976	polysaccharide metabolism	93
+5996	monosaccharide metabolism	289
+6006	glucose metabolism	207
+6007	glucose catabolism	137
+6066	alcohol metabolism	507
+6082	organic acid metabolism	953
+6084	acetyl-CoA metabolism	91
+6091	generation of precursor metabolites and energy	1228
+6092	main pathways of carbohydrate metabolism	233
+6096	glycolysis	121
+6112	energy reserve metabolism	66
+6118	electron transport	820
+6119	oxidative phosphorylation	134
+6139	nucleobase\, nucleoside\, nucleotide and nucleic acid metabolism	7047
+6163	purine nucleotide metabolism	185
+6164	purine nucleotide biosynthesis	167
+6259	DNA metabolism	1330
+6260	DNA replication	358
+6261	DNA-dependent DNA replication	115
+6281	DNA repair	406
+6289	nucleotide-excision repair	64
+6304	DNA modification	76
+6305	DNA alkylation	69
+6306	DNA methylation	69
+6310	DNA recombination	109
+6323	DNA packaging	569
+6325	establishment and/or maintenance of chromatin architecture	553
+6333	chromatin assembly or disassembly	266
+6334	nucleosome assembly	139
+6338	chromatin remodeling	91
+6350	transcription	4883
+6351	transcription\, DNA-dependent	4522
+6355	regulation of transcription\, DNA-dependent	4463
+6357	regulation of transcription from RNA polymerase II promoter	779
+6364	rRNA processing	158
+6366	transcription from RNA polymerase II promoter	903
+6376	mRNA splice site selection	64
+6396	RNA processing	893
+6397	mRNA processing	549
+6399	tRNA metabolism	209
+6401	RNA catabolism	68
+6402	mRNA catabolism	62
+6403	RNA localization	105
+6405	RNA export from nucleus	96
+6406	mRNA export from nucleus	79
+6412	protein biosynthesis	1378
+6413	translational initiation	127
+6417	regulation of protein biosynthesis	276
+6418	tRNA aminoacylation for protein translation	110
+6445	regulation of translation	150
+6457	protein folding	478
+6461	protein complex assembly	372
+6464	protein modification	3783
+6468	protein amino acid phosphorylation	1548
+6469	negative regulation of protein kinase activity	111
+6470	protein amino acid dephosphorylation	335
+6471	protein amino acid ADP-ribosylation	64
+6486	protein amino acid glycosylation	210
+6497	protein amino acid lipidation	105
+6508	proteolysis	1384
+6511	ubiquitin-dependent protein catabolism	350
+6512	ubiquitin cycle	1148
+6519	amino acid and derivative metabolism	599
+6520	amino acid metabolism	487
+6521	regulation of amino acid metabolism	102
+6575	amino acid derivative metabolism	145
+6576	biogenic amine metabolism	122
+6605	protein targeting	570
+6606	protein import into nucleus	157
+6629	lipid metabolism	1190
+6631	fatty acid metabolism	300
+6633	fatty acid biosynthesis	141
+6643	membrane lipid metabolism	309
+6644	phospholipid metabolism	229
+6650	glycerophospholipid metabolism	126
+6665	sphingolipid metabolism	97
+6694	steroid biosynthesis	145
+6725	aromatic compound metabolism	224
+6730	one-carbon compound metabolism	74
+6732	coenzyme metabolism	373
+6752	group transfer coenzyme metabolism	147
+6753	nucleoside phosphate metabolism	113
+6754	ATP biosynthesis	113
+6766	vitamin metabolism	131
+6767	water-soluble vitamin metabolism	96
+6790	sulfur metabolism	139
+6793	phosphorus metabolism	2085
+6796	phosphate metabolism	2085
+6800	oxygen and reactive oxygen species metabolism	124
+6807	nitrogen compound metabolism	742
+6810	transport	5315
+6811	ion transport	1457
+6812	cation transport	1017
+6813	potassium ion transport	334
+6814	sodium ion transport	203
+6816	calcium ion transport	207
+6817	phosphate transport	168
+6818	hydrogen transport	184
+6820	anion transport	366
+6821	chloride transport	121
+6836	neurotransmitter transport	96
+6865	amino acid transport	114
+6869	lipid transport	126
+6873	cell ion homeostasis	235
+6874	calcium ion homeostasis	130
+6875	metal ion homeostasis	202
+6886	intracellular protein transport	1015
+6887	exocytosis	170
+6888	ER to Golgi vesicle-mediated transport	164
+6897	endocytosis	404
+6909	phagocytosis	83
+6913	nucleocytoplasmic transport	310
+6914	autophagy	62
+6915	apoptosis	1216
+6916	anti-apoptosis	230
+6917	induction of apoptosis	294
+6928	cell motility	742
+6935	chemotaxis	214
+6936	muscle contraction	167
+6950	response to stress	1744
+6952	defense response	1290
+6954	inflammatory response	293
+6955	immune response	1127
+6956	complement activation	71
+6959	humoral immune response	183
+6968	cellular defense response	138
+6974	response to DNA damage stimulus	507
+6979	response to oxidative stress	94
+6986	response to unfolded protein	138
+6996	organelle organization and biogenesis	2280
+7001	chromosome organization and biogenesis (sensu Eukaryota)	636
+7005	mitochondrion organization and biogenesis	68
+7010	cytoskeleton organization and biogenesis	1061
+7015	actin filament organization	99
+7017	microtubule-based process	432
+7018	microtubule-based movement	277
+7028	cytoplasm organization and biogenesis	361
+7046	ribosome biogenesis	302
+7049	cell cycle	1553
+7050	cell cycle arrest	117
+7059	chromosome segregation	103
+7067	mitosis	313
+7126	meiosis	118
+7154	cell communication	5439
+7155	cell adhesion	1269
+7156	homophilic cell adhesion	198
+7160	cell-matrix adhesion	119
+7165	signal transduction	5035
+7166	cell surface receptor linked signal transduction	2464
+7167	enzyme linked receptor protein signaling pathway	646
+7169	transmembrane receptor protein tyrosine kinase signaling pathway	384
+7178	transmembrane receptor protein serine/threonine kinase signaling pathway	189
+7179	transforming growth factor beta receptor signaling pathway	121
+7185	transmembrane receptor protein tyrosine phosphatase signaling pathway	72
+7186	G-protein coupled receptor protein signaling pathway	1073
+7187	G-protein signaling\, coupled to cyclic nucleotide second messenger	97
+7188	G-protein signaling\, coupled to cAMP nucleotide second messenger	93
+7189	G-protein signaling\, adenylate cyclase activating pathway	73
+7200	G-protein signaling\, coupled to IP3 second messenger (phospholipase C activating)	70
+7218	neuropeptide signaling pathway	143
+7219	Notch signaling pathway	109
+7229	integrin-mediated signaling pathway	166
+7242	intracellular signaling cascade	2368
+7243	protein kinase cascade	556
+7249	I-kappaB kinase/NF-kappaB cascade	90
+7254	JNK cascade	116
+7264	small GTPase mediated signal transduction	765
+7265	Ras protein signal transduction	81
+7266	Rho protein signal transduction	230
+7267	cell-cell signaling	586
+7268	synaptic transmission	367
+7269	neurotransmitter secretion	110
+7270	nerve-nerve synaptic transmission	63
+7275	development	4519
+7276	gametogenesis	458
+7281	germ cell development	82
+7283	spermatogenesis	331
+7286	spermatid development	72
+7369	gastrulation	98
+7389	pattern specification	383
+7398	ectoderm development	138
+7399	nervous system development	1253
+7409	axonogenesis	355
+7411	axon guidance	199
+7417	central nervous system development	336
+7420	brain development	265
+7423	sensory organ development	232
+7498	mesoderm development	75
+7507	heart development	285
+7517	muscle development	284
+7519	striated muscle development	166
+7548	sex differentiation	122
+7582	physiological process	22333
+7596	blood coagulation	90
+7599	hemostasis	93
+7600	sensory perception	367
+7601	visual perception	119
+7605	sensory perception of sound	95
+7606	sensory perception of chemical stimulus	116
+7608	sensory perception of smell	83
+7610	behavior	547
+7611	learning and/or memory	116
+7612	learning	62
+7626	locomotory behavior	338
+8015	circulation	119
+8017	microtubule binding	129
+8021	synaptic vesicle	128
+8026	ATP-dependent helicase activity	269
+8033	tRNA processing	93
+8047	enzyme activator activity	445
+8064	regulation of actin polymerization and/or depolymerization	94
+8066	glutamate receptor activity	93
+8076	voltage-gated potassium channel complex	148
+8080	N-acetyltransferase activity	111
+8081	phosphoric diester hydrolase activity	151
+8083	growth factor activity	288
+8092	cytoskeletal protein binding	926
+8094	DNA-dependent ATPase activity	64
+8104	protein localization	1690
+8134	transcription factor binding	566
+8135	translation factor activity\, nucleic acid binding	309
+8137	NADH dehydrogenase (ubiquinone) activity	75
+8138	protein tyrosine/serine/threonine phosphatase activity	87
+8146	sulfotransferase activity	67
+8152	metabolism	15716
+8154	actin polymerization and/or depolymerization	125
+8168	methyltransferase activity	352
+8170	N-methyltransferase activity	91
+8188	neuropeptide receptor activity	78
+8194	UDP-glycosyltransferase activity	187
+8201	heparin binding	120
+8202	steroid metabolism	279
+8203	cholesterol metabolism	130
+8219	cell death	1276
+8233	peptidase activity	1333
+8234	cysteine-type peptidase activity	370
+8235	metalloexopeptidase activity	130
+8236	serine-type peptidase activity	340
+8237	metallopeptidase activity	362
+8238	exopeptidase activity	223
+8270	zinc ion binding	4294
+8276	protein methyltransferase activity	79
+8283	cell proliferation	956
+8284	positive regulation of cell proliferation	326
+8285	negative regulation of cell proliferation	228
+8286	insulin receptor signaling pathway	91
+8287	protein serine/threonine phosphatase complex	71
+8289	lipid binding	586
+8305	integrin complex	67
+8324	cation transporter activity	1059
+8360	regulation of cell shape	133
+8361	regulation of cell size	268
+8375	acetylglucosaminyltransferase activity	64
+8378	galactosyltransferase activity	67
+8380	RNA splicing	401
+8406	gonad development	72
+8415	acyltransferase activity	341
+8483	transaminase activity	96
+8509	anion transporter activity	188
+8528	peptide receptor activity\, G-protein coupled	169
+8544	epidermis development	122
+8565	protein transporter activity	289
+8610	lipid biosynthesis	520
+8632	apoptotic program	98
+8639	small protein conjugating enzyme activity	120
+8643	carbohydrate transport	134
+8652	amino acid biosynthesis	114
+8654	phospholipid biosynthesis	135
+8757	S-adenosylmethionine-dependent methyltransferase activity	230
+9055	electron carrier activity	333
+9056	catabolism	1124
+9057	macromolecule catabolism	726
+9058	biosynthesis	2668
+9059	macromolecule biosynthesis	1518
+9063	amino acid catabolism	83
+9100	glycoprotein metabolism	266
+9101	glycoprotein biosynthesis	232
+9108	coenzyme biosynthesis	206
+9109	coenzyme catabolism	69
+9116	nucleoside metabolism	63
+9117	nucleotide metabolism	399
+9141	nucleoside triphosphate metabolism	167
+9142	nucleoside triphosphate biosynthesis	145
+9144	purine nucleoside triphosphate metabolism	149
+9145	purine nucleoside triphosphate biosynthesis	136
+9150	purine ribonucleotide metabolism	174
+9152	purine ribonucleotide biosynthesis	159
+9165	nucleotide biosynthesis	282
+9187	cyclic nucleotide metabolism	68
+9199	ribonucleoside triphosphate metabolism	150
+9201	ribonucleoside triphosphate biosynthesis	136
+9205	purine ribonucleoside triphosphate metabolism	146
+9206	purine ribonucleoside triphosphate biosynthesis	136
+9259	ribonucleotide metabolism	192
+9260	ribonucleotide biosynthesis	170
+9266	response to temperature stimulus	69
+9308	amine metabolism	697
+9309	amine biosynthesis	162
+9310	amine catabolism	97
+9314	response to radiation	117
+9416	response to light stimulus	85
+9581	detection of external stimulus	64
+9605	response to external stimulus	790
+9607	response to biotic stimulus	1349
+9611	response to wounding	549
+9613	response to pest\, pathogen or parasite	665
+9615	response to virus	64
+9617	response to bacteria	107
+9628	response to abiotic stimulus	802
+9653	morphogenesis	2137
+9719	response to endogenous stimulus	546
+9790	embryonic development	724
+9791	post-embryonic development	66
+9792	embryonic development (sensu Metazoa)	352
+9880	embryonic pattern specification	98
+9887	organ morphogenesis	1145
+9888	tissue development	421
+9889	regulation of biosynthesis	308
+9891	positive regulation of biosynthesis	84
+9892	negative regulation of metabolism	750
+9893	positive regulation of metabolism	752
+9897	external side of plasma membrane	179
+9952	anterior/posterior pattern formation	154
+9966	regulation of signal transduction	661
+9967	positive regulation of signal transduction	112
+9968	negative regulation of signal transduction	181
+9986	cell surface	313
+9987	cellular process	23638
+12501	programmed cell death	1234
+12502	induction of programmed cell death	294
+12505	endomembrane system	867
+12506	vesicle membrane	200
+14031	mesenchymal cell development	74
+15031	protein transport	1536
+15075	ion transporter activity	1328
+15077	monovalent inorganic cation transporter activity	236
+15078	hydrogen ion transporter activity	221
+15082	di-\, tri-valent inorganic cation transporter activity	83
+15144	carbohydrate transporter activity	110
+15171	amino acid transporter activity	128
+15203	polyamine transporter activity	98
+15267	channel or pore class transporter activity	777
+15268	alpha-type channel activity	732
+15276	ligand-gated ion channel activity	176
+15288	porin activity	65
+15290	electrochemical potential-driven transporter activity	432
+15291	porter activity	430
+15293	symporter activity	183
+15294	solute\:cation symporter activity	93
+15297	antiporter activity	90
+15370	solute\:sodium symporter activity	89
+15399	primary active transporter activity	263
+15405	P-P-bond-hydrolysis-driven transporter activity	263
+15629	actin cytoskeleton	472
+15630	microtubule cytoskeleton	691
+15631	tubulin binding	168
+15662	ATPase activity\, coupled to transmembrane movement of ions\, phosphorylative mechanism	160
+15672	monovalent inorganic cation transport	630
+15674	di-\, tri-valent inorganic cation transport	297
+15698	inorganic anion transport	318
+15837	amine transport	139
+15849	organic acid transport	149
+15931	nucleobase\, nucleoside\, nucleotide and nucleic acid transport	109
+15934	large ribosomal subunit	70
+15935	small ribosomal subunit	89
+15980	energy derivation by oxidation of organic compounds	311
+15985	energy coupled proton transport\, down electrochemical gradient	105
+15986	ATP synthesis coupled proton transport	105
+15992	proton transport	168
+16020	membrane	10777
+16021	integral to membrane	7554
+16023	cytoplasmic membrane-bound vesicle	509
+16032	viral life cycle	72
+16042	lipid catabolism	141
+16043	cell organization and biogenesis	4198
+16044	membrane organization and biogenesis	122
+16049	cell growth	257
+16051	carbohydrate biosynthesis	171
+16052	carbohydrate catabolism	162
+16053	organic acid biosynthesis	155
+16055	Wnt receptor signaling pathway	246
+16064	humoral defense mechanism (sensu Vertebrata)	131
+16066	cellular defense response (sensu Vertebrata)	103
+16070	RNA metabolism	1089
+16071	mRNA metabolism	624
+16072	rRNA metabolism	159
+16125	sterol metabolism	144
+16126	sterol biosynthesis	72
+16192	vesicle-mediated transport	946
+16197	endosome transport	64
+16209	antioxidant activity	98
+16265	death	1276
+16298	lipase activity	118
+16301	kinase activity	2313
+16310	phosphorylation	1725
+16311	dephosphorylation	355
+16323	basolateral plasma membrane	179
+16324	apical plasma membrane	77
+16327	apicolateral plasma membrane	171
+16331	morphogenesis of embryonic epithelium	92
+16337	cell-cell adhesion	360
+16358	dendrite development	75
+16407	acetyltransferase activity	134
+16410	N-acyltransferase activity	127
+16459	myosin	118
+16462	pyrophosphatase activity	1254
+16469	proton-transporting two-sector ATPase complex	108
+16477	cell migration	621
+16481	negative regulation of transcription	534
+16485	protein processing	171
+16491	oxidoreductase activity	1506
+16502	nucleotide receptor activity	85
+16538	cyclin-dependent protein kinase regulator activity	61
+16540	protein autoprocessing	101
+16563	transcriptional activator activity	446
+16564	transcriptional repressor activity	435
+16567	protein ubiquitination	100
+16568	chromatin modification	381
+16569	covalent chromatin modification	63
+16570	histone modification	63
+16591	DNA-directed RNA polymerase II\, holoenzyme	119
+16604	nuclear body	77
+16614	oxidoreductase activity\, acting on CH-OH group of donors	207
+16616	oxidoreductase activity\, acting on the CH-OH group of donors\, NAD or NADP as acceptor	195
+16627	oxidoreductase activity\, acting on the CH-CH group of donors	78
+16651	oxidoreductase activity\, acting on NADH or NADPH	126
+16655	oxidoreductase activity\, acting on NADH or NADPH\, quinone or similar compound as acceptor	84
+16684	oxidoreductase activity\, acting on peroxide as acceptor	67
+16701	oxidoreductase activity\, acting on single donors with incorporation of molecular oxygen	92
+16702	oxidoreductase activity\, acting on single donors with incorporation of molecular oxygen\, incorporation of two atoms of oxygen	91
+16705	oxidoreductase activity\, acting on paired donors\, with incorporation or reduction of molecular oxygen	203
+16740	transferase activity	4218
+16741	transferase activity\, transferring one-carbon groups	359
+16746	transferase activity\, transferring acyl groups	380
+16747	transferase activity\, transferring groups other than amino-acyl groups	361
+16757	transferase activity\, transferring glycosyl groups	483
+16758	transferase activity\, transferring hexosyl groups	313
+16763	transferase activity\, transferring pentosyl groups	86
+16765	transferase activity\, transferring alkyl or aryl (other than methyl) groups	112
+16769	transferase activity\, transferring nitrogenous groups	101
+16772	transferase activity\, transferring phosphorus-containing groups	2632
+16773	phosphotransferase activity\, alcohol group as acceptor	1829
+16775	phosphotransferase activity\, nitrogenous group as acceptor	101
+16776	phosphotransferase activity\, phosphate group as acceptor	67
+16779	nucleotidyltransferase activity	290
+16782	transferase activity\, transferring sulfur-containing groups	98
+16787	hydrolase activity	4380
+16788	hydrolase activity\, acting on ester bonds	1367
+16789	carboxylic ester hydrolase activity	205
+16790	thiolester hydrolase activity	197
+16791	phosphoric monoester hydrolase activity	543
+16798	hydrolase activity\, acting on glycosyl bonds	204
+16810	hydrolase activity\, acting on carbon-nitrogen (but not peptide) bonds	168
+16811	hydrolase activity\, acting on carbon-nitrogen (but not peptide) bonds\, in linear amides	93
+16817	hydrolase activity\, acting on acid anhydrides	1262
+16818	hydrolase activity\, acting on acid anhydrides\, in phosphorus-containing anhydrides	1260
+16820	hydrolase activity\, acting on acid anhydrides\, catalyzing transmembrane movement of substances	334
+16829	lyase activity	346
+16830	carbon-carbon lyase activity	96
+16831	carboxy-lyase activity	77
+16835	carbon-oxygen lyase activity	150
+16836	hydro-lyase activity	121
+16853	isomerase activity	288
+16859	cis-trans isomerase activity	76
+16860	intramolecular oxidoreductase activity	85
+16874	ligase activity	782
+16875	ligase activity\, forming carbon-oxygen bonds	115
+16876	ligase activity\, forming aminoacyl-tRNA and related compounds	115
+16879	ligase activity\, forming carbon-nitrogen bonds	461
+16881	acid-amino acid ligase activity	381
+16887	ATPase activity	749
+16891	endoribonuclease activity\, producing 5'-phosphomonoesters	63
+16893	endonuclease activity\, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters	65
+16903	oxidoreductase activity\, acting on the aldehyde or oxo group of donors	73
+16917	GABA receptor activity	63
+17038	protein import	172
+17076	purine nucleotide binding	3993
+17111	nucleoside-triphosphatase activity	1193
+18108	peptidyl-tyrosine phosphorylation	126
+18193	peptidyl-amino acid modification	214
+18212	peptidyl-tyrosine modification	126
+19001	guanyl nucleotide binding	814
+19012	virion	73
+19028	viral capsid	63
+19199	transmembrane receptor protein kinase activity	205
+19205	nucleobase\, nucleoside\, nucleotide kinase activity	93
+19207	kinase regulator activity	202
+19208	phosphatase regulator activity	112
+19210	kinase inhibitor activity	63
+19219	regulation of nucleobase\, nucleoside\, nucleotide and nucleic acid metabolism	4816
+19220	regulation of phosphate metabolism	114
+19221	cytokine and chemokine mediated signaling pathway	84
+19222	regulation of metabolism	5348
+19226	transmission of nerve impulse	433
+19318	hexose metabolism	285
+19320	hexose catabolism	138
+19538	protein metabolism	6705
+19717	synaptosome	127
+19725	cell homeostasis	289
+19748	secondary metabolism	68
+19752	carboxylic acid metabolism	953
+19783	small conjugating protein-specific protease activity	169
+19787	small conjugating protein ligase activity	334
+19829	cation-transporting ATPase activity	133
+19838	growth factor binding	120
+19842	vitamin binding	134
+19866	organelle inner membrane	530
+19867	outer membrane	156
+19882	antigen presentation	126
+19883	antigen presentation\, endogenous antigen	66
+19885	antigen processing\, endogenous antigen via MHC class I	67
+19887	protein kinase regulator activity	174
+19888	protein phosphatase regulator activity	102
+19897	extrinsic to plasma membrane	139
+19898	extrinsic to membrane	149
+19899	enzyme binding	357
+19900	kinase binding	154
+19901	protein kinase binding	136
+19904	protein domain specific binding	190
+19932	second-messenger-mediated signaling	241
+19933	cAMP-mediated signaling	112
+19935	cyclic-nucleotide-mediated signaling	122
+19941	modification-dependent protein catabolism	356
+19953	sexual reproduction	514
+19955	cytokine binding	134
+19965	interleukin binding	69
+19992	diacylglycerol binding	136
+20037	heme binding	276
+21915	neural tube development	69
+22008	neurogenesis	748
+30001	metal ion transport	774
+30003	cation homeostasis	223
+30005	di-\, tri-valent inorganic cation homeostasis	193
+30016	myofibril	146
+30017	sarcomere	134
+30018	Z disc	62
+30027	lamellipodium	152
+30029	actin filament-based process	405
+30030	cell projection organization and biogenesis	110
+30031	cell projection biogenesis	109
+30036	actin cytoskeleton organization and biogenesis	385
+30042	actin filament depolymerization	69
+30054	cell junction	434
+30055	cell-matrix junction	96
+30097	hemopoiesis	380
+30098	lymphocyte differentiation	168
+30099	myeloid cell differentiation	151
+30100	regulation of endocytosis	88
+30106	MHC class I receptor activity	66
+30117	membrane coat	117
+30118	clathrin coat	96
+30120	vesicle coat	106
+30125	clathrin vesicle coat	89
+30133	transport vesicle	75
+30135	coated vesicle	275
+30136	clathrin-coated vesicle	248
+30141	secretory granule	88
+30145	manganese ion binding	246
+30154	cell differentiation	2145
+30155	regulation of cell adhesion	98
+30163	protein catabolism	476
+30173	integral to Golgi membrane	81
+30176	integral to endoplasmic reticulum membrane	88
+30182	neuron differentiation	634
+30183	B cell differentiation	71
+30198	extracellular matrix organization and biogenesis	155
+30217	T cell differentiation	94
+30234	enzyme regulator activity	1394
+30246	carbohydrate binding	500
+30247	polysaccharide binding	180
+30258	lipid modification	65
+30323	respiratory tube development	111
+30324	lung development	109
+30326	embryonic limb morphogenesis	121
+30333	antigen processing	103
+30334	regulation of cell migration	131
+30384	phosphoinositide metabolism	86
+30414	protease inhibitor activity	214
+30424	axon	133
+30425	dendrite	70
+30518	steroid hormone receptor signaling pathway	77
+30522	intracellular receptor-mediated signaling pathway	85
+30528	transcription regulator activity	2720
+30529	ribonucleoprotein complex	996
+30554	adenyl nucleotide binding	3266
+30594	neurotransmitter receptor activity	163
+30659	cytoplasmic vesicle membrane	158
+30662	coated vesicle membrane	111
+30665	clathrin coated vesicle membrane	94
+30674	protein binding\, bridging	63
+30695	GTPase regulator activity	728
+30705	cytoskeleton-dependent intracellular transport	302
+30832	regulation of actin filament length	95
+30834	regulation of actin filament depolymerization	69
+30835	negative regulation of actin filament depolymerization	66
+30900	forebrain development	152
+30955	potassium ion binding	220
+31012	extracellular matrix	505
+31072	heat shock protein binding	145
+31090	organelle membrane	1365
+31098	stress-activated protein kinase signaling pathway	118
+31175	neurite development	421
+31214	biomineral formation	151
+31224	intrinsic to membrane	7573
+31226	intrinsic to plasma membrane	1220
+31227	intrinsic to endoplasmic reticulum membrane	95
+31228	intrinsic to Golgi membrane	82
+31252	leading edge	203
+31267	small GTPase binding	114
+31300	intrinsic to organelle membrane	191
+31301	integral to organelle membrane	179
+31323	regulation of cellular metabolism	5140
+31324	negative regulation of cellular metabolism	634
+31325	positive regulation of cellular metabolism	719
+31326	regulation of cellular biosynthesis	286
+31328	positive regulation of cellular biosynthesis	73
+31402	sodium ion binding	146
+31410	cytoplasmic vesicle	545
+31420	alkali metal ion binding	334
+31497	chromatin assembly	159
+31589	cell-substrate adhesion	120
+31965	nuclear membrane	151
+31966	mitochondrial membrane	556
+31967	organelle envelope	847
+31968	organelle outer membrane	63
+31974	membrane-enclosed lumen	1565
+31975	envelope	856
+31980	mitochondrial lumen	117
+31981	nuclear lumen	1381
+31982	vesicle	562
+31988	membrane-bound vesicle	526
+32147	activation of protein kinase activity	79
+35023	regulation of Rho protein signal transduction	168
+35091	phosphoinositide binding	137
+35107	appendage morphogenesis	127
+35108	limb morphogenesis	127
+35113	embryonic appendage morphogenesis	121
+35239	tube morphogenesis	182
+35282	segmentation	76
+35295	tube development	293
+40007	growth	409
+40008	regulation of growth	305
+40011	locomotion	752
+40012	regulation of locomotion	150
+40029	regulation of gene expression\, epigenetic	130
+42035	regulation of cytokine biosynthesis	97
+42060	wound healing	150
+42087	cell-mediated immune response	74
+42088	T-helper 1 type immune response	65
+42089	cytokine biosynthesis	113
+42098	T cell proliferation	87
+42107	cytokine metabolism	113
+42108	positive regulation of cytokine biosynthesis	63
+42110	T cell activation	197
+42113	B cell activation	145
+42127	regulation of cell proliferation	650
+42157	lipoprotein metabolism	128
+42158	lipoprotein biosynthesis	108
+42165	neurotransmitter binding	163
+42175	nuclear envelope-endoplasmic reticulum network	242
+42221	response to chemical stimulus	622
+42254	ribosome biogenesis and assembly	321
+42277	peptide binding	222
+42325	regulation of phosphorylation	114
+42330	taxis	214
+42379	chemokine receptor binding	63
+42445	hormone metabolism	124
+42471	ear morphogenesis	63
+42475	odontogenesis (sensu Vertebrata)	64
+42476	odontogenesis	70
+42551	neuron maturation	89
+42578	phosphoric ester hydrolase activity	687
+42579	microbody	150
+42592	homeostasis	452
+42598	vesicular fraction	278
+42623	ATPase activity\, coupled	654
+42625	ATPase activity\, coupled to transmembrane movement of ions	237
+42626	ATPase activity\, coupled to transmembrane movement of substances	332
+42692	muscle cell differentiation	81
+42742	defense response to bacteria	81
+42770	DNA damage response\, signal transduction	77
+42802	identical protein binding	375
+42803	protein homodimerization activity	225
+42923	neuropeptide binding	78
+42981	regulation of apoptosis	842
+42995	cell projection	604
+43005	neuron projection	221
+43009	embryonic development (sensu Vertebrata)	224
+43010	eye development (sensu Vertebrata)	88
+43025	cell soma	64
+43037	translation	374
+43038	amino acid activation	110
+43039	tRNA aminoacylation	110
+43062	extracellular structure organization and biogenesis	155
+43065	positive regulation of apoptosis	386
+43066	negative regulation of apoptosis	340
+43067	regulation of programmed cell death	854
+43068	positive regulation of programmed cell death	392
+43069	negative regulation of programmed cell death	343
+43085	positive regulation of enzyme activity	306
+43086	negative regulation of enzyme activity	117
+43087	regulation of GTPase activity	95
+43118	negative regulation of physiological process	1578
+43119	positive regulation of physiological process	1437
+43167	ion binding	7442
+43169	cation binding	6873
+43170	macromolecule metabolism	9077
+43226	organelle	14538
+43227	membrane-bound organelle	12850
+43228	non-membrane-bound organelle	3194
+43229	intracellular organelle	14538
+43231	intracellular membrane-bound organelle	12837
+43232	intracellular non-membrane-bound organelle	3194
+43233	organelle lumen	1565
+43234	protein complex	4318
+43235	receptor complex	147
+43281	regulation of caspase activity	76
+43283	biopolymer metabolism	6108
+43285	biopolymer catabolism	580
+43292	contractile fiber	155
+43296	apical junction complex	171
+43405	regulation of MAPK activity	149
+43406	positive regulation of MAPK activity	92
+43412	biopolymer modification	3917
+43413	biopolymer glycosylation	218
+43414	biopolymer methylation	125
+43492	ATPase activity\, coupled to movement of substances	332
+43549	regulation of kinase activity	333
+43565	sequence-specific DNA binding	938
+43566	structure-specific DNA binding	99
+43583	ear development	63
+43632	modification-dependent macromolecule catabolism	356
+44237	cellular metabolism	14863
+44238	primary metabolism	14354
+44248	cellular catabolism	957
+44249	cellular biosynthesis	2318
+44255	cellular lipid metabolism	1017
+44257	cellular protein catabolism	409
+44260	cellular macromolecule metabolism	6414
+44262	cellular carbohydrate metabolism	604
+44264	cellular polysaccharide metabolism	93
+44265	cellular macromolecule catabolism	638
+44267	cellular protein metabolism	6341
+44270	nitrogen compound catabolism	97
+44271	nitrogen compound biosynthesis	162
+44272	sulfur compound biosynthesis	82
+44275	cellular carbohydrate catabolism	162
+44420	extracellular matrix part	174
+44421	extracellular region part	3743
+44422	organelle part	5437
+44423	virion part	73
+44424	intracellular part	16310
+44425	membrane part	8463
+44427	chromosomal part	553
+44428	nuclear part	2017
+44429	mitochondrial part	697
+44430	cytoskeletal part	1097
+44431	Golgi apparatus part	925
+44432	endoplasmic reticulum part	254
+44433	cytoplasmic vesicle part	183
+44444	cytoplasmic part	5923
+44445	cytosolic part	247
+44446	intracellular organelle part	5437
+44448	cell cortex part	75
+44449	contractile fiber part	142
+44451	nucleoplasm part	1059
+44452	nucleolar part	88
+44453	nuclear membrane part	151
+44454	nuclear chromosome part	132
+44455	mitochondrial membrane part	96
+44456	synapse part	202
+44459	plasma membrane part	2221
+44463	cell projection part	105
+44464	cell part	23485
+45028	purinergic nucleotide receptor activity\, G-protein coupled	85
+45045	secretory pathway	483
+45055	regulated secretory pathway	118
+45087	innate immune response	91
+45111	intermediate filament cytoskeleton	151
+45137	development of primary sexual characteristics	72
+45165	cell fate commitment	169
+45177	apical part of cell	139
+45182	translation regulator activity	316
+45184	establishment of protein localization	1592
+45202	synapse	397
+45211	postsynaptic membrane	166
+45321	immune cell activation	359
+45333	cellular respiration	68
+45449	regulation of transcription	4744
+45595	regulation of cell differentiation	330
+45596	negative regulation of cell differentiation	134
+45597	positive regulation of cell differentiation	131
+45637	regulation of myeloid cell differentiation	73
+45727	positive regulation of protein biosynthesis	71
+45786	negative regulation of progression through cell cycle	294
+45859	regulation of protein kinase activity	312
+45860	positive regulation of protein kinase activity	179
+45892	negative regulation of transcription\, DNA-dependent	398
+45893	positive regulation of transcription\, DNA-dependent	474
+45926	negative regulation of growth	69
+45934	negative regulation of nucleobase\, nucleoside\, nucleotide and nucleic acid metabolism	561
+45935	positive regulation of nucleobase\, nucleoside\, nucleotide and nucleic acid metabolism	612
+45941	positive regulation of transcription	601
+45944	positive regulation of transcription from RNA polymerase II promoter	391
+46034	ATP metabolism	123
+46164	alcohol catabolism	144
+46356	acetyl-CoA catabolism	61
+46365	monosaccharide catabolism	138
+46394	carboxylic acid biosynthesis	155
+46467	membrane lipid biosynthesis	174
+46474	glycerophospholipid biosynthesis	71
+46483	heterocycle metabolism	135
+46649	lymphocyte activation	318
+46651	lymphocyte proliferation	124
+46777	protein amino acid autophosphorylation	100
+46849	bone remodeling	163
+46872	metal ion binding	7439
+46873	metal ion transporter activity	103
+46903	secretion	579
+46906	tetrapyrrole binding	276
+46907	intracellular transport	1659
+46914	transition metal ion binding	5118
+46916	transition metal ion homeostasis	74
+46930	pore complex	105
+46933	hydrogen-transporting ATP synthase activity\, rotational mechanism	101
+46942	carboxylic acid transport	147
+46943	carboxylic acid transporter activity	170
+46961	hydrogen-transporting ATPase activity\, rotational mechanism	106
+46982	protein heterodimerization activity	173
+46983	protein dimerization activity	480
+48015	phosphoinositide-mediated signaling	86
+48037	cofactor binding	220
+48193	Golgi vesicle transport	226
+48232	male gamete generation	331
+48468	cell development	843
+48469	cell maturation	153
+48471	perinuclear region	96
+48475	coated membrane	117
+48511	rhythmic process	117
+48513	organ development	2097
+48514	blood vessel morphogenesis	316
+48515	spermatid differentiation	80
+48518	positive regulation of biological process	1806
+48519	negative regulation of biological process	1894
+48522	positive regulation of cellular process	1502
+48523	negative regulation of cellular process	1757
+48534	hemopoietic or lymphoid organ development	413
+48592	eye morphogenesis	75
+48598	embryonic morphogenesis	300
+48609	reproductive organismal physiological process	122
+48637	skeletal muscle development	81
+48666	neuron development	526
+48667	neuron morphogenesis during differentiation	361
+48675	axon extension	63
+48699	generation of neurons	725
+48729	tissue morphogenesis	103
+48730	epidermis morphogenesis	70
+48731	system development	1341
+48736	appendage development	127
+48741	skeletal muscle fiber development	76
+48747	muscle fiber development	76
+48754	branching morphogenesis of a tube	110
+48762	mesenchymal cell differentiation	74
+48771	tissue remodeling	176
+48812	neurite morphogenesis	361
+50136	NADH dehydrogenase (quinone) activity	75
+50657	nucleic acid transport	102
+50658	RNA transport	102
+50662	coenzyme binding	178
+50670	regulation of lymphocyte proliferation	79
+50730	regulation of peptidyl-tyrosine phosphorylation	83
+50767	regulation of neurogenesis	86
+50770	regulation of axonogenesis	68
+50776	regulation of immune response	255
+50777	negative regulation of immune response	62
+50778	positive regulation of immune response	174
+50789	regulation of biological process	8083
+50790	regulation of catalytic activity	559
+50791	regulation of physiological process	7193
+50793	regulation of development	442
+50794	regulation of cellular process	7452
+50801	ion homeostasis	273
+50808	synapse organization and biogenesis	73
+50817	coagulation	91
+50863	regulation of T cell activation	102
+50864	regulation of B cell activation	69
+50865	regulation of cell activation	143
+50867	positive regulation of cell activation	109
+50870	positive regulation of T cell activation	82
+50874	organismal physiological process	2537
+50875	cellular physiological process	20882
+50876	reproductive physiological process	122
+50877	neurophysiological process	780
+50878	regulation of body fluids	107
+50896	response to stimulus	3266
+50953	sensory perception of light stimulus	119
+50954	sensory perception of mechanical stimulus	100
+51020	GTPase binding	138
+51028	mRNA transport	85
+51046	regulation of secretion	65
+51049	regulation of transport	193
+51050	positive regulation of transport	86
+51056	regulation of small GTPase mediated signal transduction	250
+51082	unfolded protein binding	315
+51093	negative regulation of development	163
+51094	positive regulation of development	182
+51119	sugar transporter activity	110
+51128	regulation of cell organization and biogenesis	156
+51129	negative regulation of cell organization and biogenesis	109
+51168	nuclear export	124
+51169	nuclear transport	272
+51170	nuclear import	159
+51174	regulation of phosphorus metabolism	114
+51179	localization	6099
+51186	cofactor metabolism	436
+51187	cofactor catabolism	73
+51188	cofactor biosynthesis	247
+51213	dioxygenase activity	91
+51234	establishment of localization	6019
+51236	establishment of RNA localization	102
+51239	regulation of organismal physiological process	449
+51240	positive regulation of organismal physiological process	198
+51241	negative regulation of organismal physiological process	80
+51242	positive regulation of cellular physiological process	1387
+51243	negative regulation of cellular physiological process	1531
+51244	regulation of cellular physiological process	6939
+51246	regulation of protein metabolism	519
+51247	positive regulation of protein metabolism	126
+51248	negative regulation of protein metabolism	173
+51249	regulation of lymphocyte activation	141
+51251	positive regulation of lymphocyte activation	107
+51258	protein polymerization	107
+51261	protein depolymerization	108
+51270	regulation of cell motility	142
+51276	chromosome organization and biogenesis	688
+51287	NAD binding	75
+51301	cell division	488
+51321	meiotic cell cycle	119
+51325	interphase	152
+51327	M phase of meiotic cell cycle	118
+51329	interphase of mitotic cell cycle	152
+51336	regulation of hydrolase activity	173
+51338	regulation of transferase activity	340
+51347	positive regulation of transferase activity	206
+51348	negative regulation of transferase activity	112
+51536	iron-sulfur cluster binding	78
+51540	metal cluster binding	78
+51603	proteolysis during cellular protein catabolism	409
+51606	detection of stimulus	70
+51641	cellular localization	1697
+51649	establishment of cellular localization	1682
+51674	localization of cell	742
+51693	actin filament capping	66
+51704	interaction between organisms	119
+51707	response to other organism	696
+51726	regulation of cell cycle	851
+51789	response to protein stimulus	138
